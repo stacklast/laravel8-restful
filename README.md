@@ -1,3 +1,15 @@
+# Steps for Restful API
+
+## CRUD
+
+- Execute migrations `php artisan migrate`
+- Add new model `php artisan make:model Articulo`
+- Add migration to model `php artisan make:migration create_articulos_table`
+- Run migration again `php artisan migrate` or `php artisan migrate:refresh`
+- Create controller `php artisan make:controller ArticuloController --resource`
+- Config Routes over routes/api/php file
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
