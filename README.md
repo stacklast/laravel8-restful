@@ -15,6 +15,11 @@
 - Publish Package `php artisan vendor:publish` select cors number 10
 - Clean config cache `php artisan config:cache`
 
+## JWT [laravel](https://jwt-auth.readthedocs.io/en/develop/laravel-installation/)
+
+- Install via composer `composer require tymon/jwt-auth`
+- Add controllers
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
