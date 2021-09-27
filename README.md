@@ -9,6 +9,11 @@
 - Create controller `php artisan make:controller ArticuloController --resource`
 - Config Routes over routes/api/php file
 
+## CORS
+
+- Add [CORS package middleware](https://github.com/fruitcake/laravel-cors) `composer require fruitcake/laravel-cors`
+- Publish Package `php artisan vendor:publish` select cors number 10
+- Clean config cache `php artisan config:cache`
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
