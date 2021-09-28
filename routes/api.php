@@ -18,13 +18,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 // mostrar todos los registros
-Route::get('/articulos', 'App\Http\Controllers\ArticulosController@index'); 
+Route::get('/articulos', 'App\Http\Controllers\ArticuloController@index'); 
 // crear un articulo
-Route::post('/articulos', 'App\Http\Controllers\ArticulosController@store');
+Route::post('/articulos', 'App\Http\Controllers\ArticuloController@store');
 // actualizar un registro
-Route::put('/articulos/{id}', 'App\Http\Controllers\ArticulosController@update');
+Route::put('/articulos/{id}', 'App\Http\Controllers\ArticuloController@update');
 // eliminar un registro
-Route::delete('/articulos/{id}', 'App\Http\Controllers\ArticulosController@destroy');
+Route::delete('/articulos/{id}', 'App\Http\Controllers\ArticuloController@destroy');
 
 Route::group([
 

@@ -19,6 +19,20 @@
 
 - Install via composer `composer require tymon/jwt-auth`
 - Add controllers
+- Review Routes `php artisan route:list`
+
+## Test
+
+- Add test `php artisan make:test AuthTest`
+- Run test `./vendor/bin/phpunit tests/Feature/AuthTest.php`
+
+## Using this template
+
+- Composer Install `composer install`
+- Create .env file based on .env.example `cp .env.example .env`
+- Generate app token `php artisan key:generate`
+- Generate jwt secret `php artisan jwt:secret`
+- Execute server on specific port `php artisan serve --port=80002`
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
